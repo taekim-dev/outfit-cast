@@ -47,5 +47,19 @@ export default {
 .date-input input {
   width: 15%;
   height: 40px; 
+  background: white; 
 }
+
+@media (max-width: 600px) {
+  .text-inputs {
+    width: 100%;
+  }
+  .text-inputs input {
+    width: 100%;
+  }
+  .date-input input {
+    width: 100%;
+  }
+}
+
 </style>
