@@ -5,7 +5,7 @@
       <input type="text" placeholder="To" />
     </div>
     <div class="date-input">
-      <input type="date" placeholder="Date" />
+      <input ref="dateInput" type="text" placeholder="Date" @focus="handleFocus" />
     </div>
   </div>
 </template>
