@@ -1,6 +1,6 @@
 <template>
   <div class="weather-display">
-    <h2>Feeling: {{ weatherCategory }}</h2>
+    <h2 class="weather-category">Feeling: {{ weatherCategory }}</h2>
     <div class="avatar-wrapper">
       <img
         :src="require(`@/assets/${avatarImage}`)"
@@ -8,15 +8,17 @@
         class="avatar"
       />
     </div>
-    <p>{{ weatherDescription }}</p>
+    <p class="weather-description">{{ weatherDescription }}</p>
   </div>
 </template>
+
 <script>
 export default {
   name: "WeatherDisplay",
   props: ["weatherCategory", "avatarImage", "weatherDescription"],
 };
 </script>
+
 <style scoped>
 .weather-display {
   display: flex;
@@ -37,6 +39,12 @@ export default {
   height: auto;
   max-width: 100%;
   max-height: 100%;
+}
+
+.weather-category,
+.weather-description {
+  height: 50px; /* Adjust this value accordingly */
+  text-align: center;
 }
 
 @media (max-width: 600px) {
