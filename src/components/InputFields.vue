@@ -47,7 +47,6 @@ export default {
 .date-input input {
   width: 15%;
   height: 40px; 
-  
 }
 
 @media (max-width: 600px) {
@@ -55,14 +54,14 @@ export default {
     width: 100%;
   }
   .text-inputs input {
-    width: calc(50% - 10px); /* calculate the width taking the margin into account */
-    box-sizing: border-box; /* include padding and border in element's total width and height */
-    margin: 0 5px; /* add margin to the sides */
+    width: calc(50% - 10px); 
+    box-sizing: border-box; 
+    margin: 0 5px; 
   }
   .date-input input {
-    width: 100%;
+    width: 50%;
     box-sizing: border-box;
+    margin: 0 auto; 
   }
 }
-
 </style>
