@@ -37,5 +37,10 @@ export default {
   font-family: Arial, sans-serif;
 }
 
-/* You may want to add specific styles to each component for better alignment and presentation */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+}
+
 </style>
