@@ -19,6 +19,7 @@ export default {
 <style scoped>
 .input-fields {
   width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,5 +48,11 @@ export default {
 .date-input input {
   width: 15%;
   height: 40px; 
+}
+
+@media (min-width: 768px) {
+  .input-fields {
+    width: 60%; /* Control the width on larger screens */
+  }
 }
 </style>
