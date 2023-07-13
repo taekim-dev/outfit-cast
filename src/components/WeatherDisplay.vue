@@ -11,14 +11,12 @@
     <p>{{ weatherDescription }}</p>
   </div>
 </template>
-
 <script>
 export default {
   name: "WeatherDisplay",
   props: ["weatherCategory", "avatarImage", "weatherDescription"],
 };
 </script>
-
 <style scoped>
 .weather-display {
   display: flex;
@@ -31,14 +29,13 @@ export default {
 
 .avatar-wrapper {
   width: 100%;
-  padding-bottom: 200%;
   position: relative;
 }
 
 .avatar {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 </style>
