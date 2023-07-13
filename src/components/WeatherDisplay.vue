@@ -38,4 +38,15 @@ export default {
   max-width: 100%;
   max-height: 100%;
 }
+
+@media (max-width: 600px) {
+  .weather-display {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .avatar {
+    width: 100%;
+  }
+}
 </style>
