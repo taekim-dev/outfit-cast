@@ -27,6 +27,7 @@ export default {
 
 .text-inputs {
   width: 100%;
+  width: 40%;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 10px;
@@ -34,6 +35,7 @@ export default {
 
 .text-inputs input {
   width: 45%;
+  height: 40px;
 }
 
 .date-input {
@@ -43,6 +45,7 @@ export default {
 }
 
 .date-input input {
-  width: 45%;
+  width: 15%;
+  height: 40px; 
 }
 </style>
