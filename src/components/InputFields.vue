@@ -52,16 +52,16 @@ export default {
 
 @media (max-width: 600px) {
   .text-inputs {
-    flex-direction: column;
-    align-items: stretch;
+    width: 100%;
   }
   .text-inputs input {
-    width: calc(100% - 20px);
-    margin: 5px 10px; /* add margin */
+    width: calc(50% - 10px); /* calculate the width taking the margin into account */
     box-sizing: border-box; /* include padding and border in element's total width and height */
+    margin: 0 5px; /* add margin to the sides */
   }
   .date-input input {
     width: 100%;
+    box-sizing: border-box;
   }
 }
 
