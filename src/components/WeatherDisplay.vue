@@ -24,7 +24,7 @@ export default {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  max-width: 200px;
+  max-width: 50%;
 }
 
 .avatar-wrapper {
@@ -33,7 +33,7 @@ export default {
 }
 
 .avatar {
-  width: auto;
+  width: 100%;
   height: auto;
   max-width: 100%;
   max-height: 100%;
