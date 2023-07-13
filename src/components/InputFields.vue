@@ -51,12 +51,11 @@ export default {
 }
 
 @media (max-width: 600px) {
-  .text-inputs input {
-    width: calc(50% - 5px); /* Subtract the margin from the width */
-    margin-right: 5px;
+  .text-inputs {
+    width: 95%;
   }
-  .text-inputs input:last-child {
-    margin-right: 0;
+  .text-inputs input {
+    width: 100%;
   }
   .date-input input {
     width: 100%;
