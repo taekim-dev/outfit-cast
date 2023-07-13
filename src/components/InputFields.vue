@@ -1,9 +1,12 @@
 <template>
-  <div>
-    <input type="text" placeholder="From" />
-    <input type="text" placeholder="To" />
-    <!-- For date, we are just using a simple input field here, but you might want to use a date picker library for a better UX -->
-    <input type="date" placeholder="Date" />
+  <div class="input-fields">
+    <div class="text-inputs">
+      <input type="text" placeholder="From" />
+      <input type="text" placeholder="To" />
+    </div>
+    <div class="date-input">
+      <input type="date" placeholder="Date" />
+    </div>
   </div>
 </template>
 
@@ -14,12 +17,32 @@ export default {
 </script>
 
 <style scoped>
-div {
+.input-fields {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
 }
-input {
-  width: 30%;
+
+.text-inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.text-inputs input {
+  width: 45%;
+}
+
+.date-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.date-input input {
+  width: 45%;
 }
 </style>
