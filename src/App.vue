@@ -13,12 +13,6 @@ import InputFields from './components/InputFields.vue'
 import WeatherForecast from './components/WeatherForecast.vue'
 import AppFooter from './components/AppFooter.vue'
 
-//some changes made from dev
-let dev = true;
-
-//The change made by other developer to dev
-let dev2 = true;
-
 export default {
   name: 'App',
   components: {
@@ -29,10 +23,7 @@ export default {
   }
 }
 
-//a new change made by dev3
-let dev3 = false;
 </script>
-
 
 <style>
 .app-container {
