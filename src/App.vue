@@ -22,6 +22,12 @@ export default {
     AppFooter
   }
 }
+
+//TODO: remove it later
+//This is a new change from staging
+let staging = 10;
+let pushToProduction = true;
+
 </script>
 
 
