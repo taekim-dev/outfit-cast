@@ -28,6 +28,9 @@ export default {
     AppFooter
   }
 }
+
+//a new change made by dev3
+let dev3 = false;
 </script>
 
 
