@@ -16,6 +16,9 @@ import AppFooter from './components/AppFooter.vue'
 //some changes made from dev
 let dev = true;
 
+//The change made by other developer to dev
+let dev2 = true;
+
 export default {
   name: 'App',
   components: {
