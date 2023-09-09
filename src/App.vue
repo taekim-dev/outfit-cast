@@ -13,6 +13,9 @@ import InputFields from './components/InputFields.vue'
 import WeatherForecast from './components/WeatherForecast.vue'
 import AppFooter from './components/AppFooter.vue'
 
+//some changes made from dev
+let dev = true;
+
 export default {
   name: 'App',
   components: {
